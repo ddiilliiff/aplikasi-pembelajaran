@@ -5,18 +5,18 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Ini home screen'),
+    return  Scaffold(
+      body: Column(
+        children: [
+          Container(
+            constraints: BoxConstraints.expand(),
+            child: Image(
+              image: AssetImage('assets/menu.png'),
+              fit: BoxFit.cover,
+              ),
+          ),
+        ],
       ),
-      body: DecoratedBox(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('assets/splash_screen.png'),
-            fit: BoxFit.cover,
-            )
-        )
-        )
     );
   }
 }
