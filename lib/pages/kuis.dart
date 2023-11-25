@@ -6,9 +6,7 @@ class Kuis extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('ini kuis'),
-      ),
+      body: Center(child: Text('ini belajar angka')),
     );
   }
 }

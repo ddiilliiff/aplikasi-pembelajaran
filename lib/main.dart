@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'belajar_angka.dart';
-import 'belajar_huruf.dart';
-import 'home_screen.dart';
-import 'kuis.dart';
+import 'pages/belajar_angka.dart';
+import 'pages/belajar_huruf.dart';
+import 'pages/home_screen.dart';
+import 'pages/kuis.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
