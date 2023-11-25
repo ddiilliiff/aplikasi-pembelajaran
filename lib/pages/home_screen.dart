@@ -30,7 +30,7 @@ class HomeScreen extends StatelessWidget {
                 MyCard(
                 title: "huhruf", 
                 onPressed: (){
-                  Navigator.pushNamed(context, '/angka');
+                  Navigator.pushNamed(context, '/huruf');
                 }, 
                 color: Colors.amber.shade200, 
                 ),

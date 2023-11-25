@@ -63,6 +63,8 @@ flutter:
   - assets/menu.png
   - assets/splash_screen.png
   - assets/menu_b_angka.png
+  - assets/menu_b_huruf.png
+  
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
