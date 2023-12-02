@@ -9,8 +9,8 @@ class BelajarHuruf extends StatelessWidget {
       body: Stack(
         children: [
           Container(
-            constraints: BoxConstraints.expand(),
-            child: Image(
+            constraints: const BoxConstraints.expand(),
+            child: const Image(
               image: AssetImage('assets/menu_b_huruf.png'),
               fit: BoxFit.cover,
               ),

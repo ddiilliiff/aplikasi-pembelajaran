@@ -9,8 +9,8 @@ class BelajarAngka extends StatelessWidget {
       body: Stack(
         children: [
           Container(
-            constraints: BoxConstraints.expand(),
-            child: Image(
+            constraints: const BoxConstraints.expand(),
+            child: const Image(
               image: AssetImage('assets/menu_b_angka.png'),
               fit: BoxFit.cover,
               ),

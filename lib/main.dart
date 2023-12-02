@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/' : (context) => const HomeScreen(),
+        '/' : (context) => HomeScreen(),
         '/huruf' : (context) => const BelajarHuruf(),
         '/angka' : (context) => const BelajarAngka(),
         '/kuis' : (context) => const Kuis(),
