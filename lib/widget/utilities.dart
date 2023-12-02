@@ -1,24 +1,34 @@
 
 import 'package:flutter/material.dart';
+import 'package:test1/widget/button.dart';
 
 class MyUtilities {
-  void showD(BuildContext context) {
+
+  // start modal
+  static void showSettings(BuildContext context) {
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Ini adalah dialog'),
-          content: Text('Isi dari dialog'),
+          title: const Text('Setting'),
+          content: const Row(
+            children: [
+              MySoundButton(),
+            ],
+          ),
           actions: [
             ElevatedButton(
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text('Tutup'),
+              child: const Text('Tutup'),
             ),
           ],
         );
       },
     );
   }
+  // end modal
+
+  
 }

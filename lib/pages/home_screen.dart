@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:test1/widget/card.dart';
-import 'package:test1/widget/modal.dart';
+import 'package:test1/widget/utilities.dart';
 
 
 
 class HomeScreen extends StatelessWidget {
-  HomeScreen({super.key});
-  final MyUtilities myUtilities = MyUtilities();
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -38,11 +37,10 @@ class HomeScreen extends StatelessWidget {
                        icon: Icons.book),
                     MyCard2(
                       onPressed: (){
-                        myUtilities.showD(context);
+                        MyUtilities.showSettings(context);
                       },
                        color: Colors.yellow, 
                        icon: Icons.settings),
-                    
                   ],
                 ),
               ),
